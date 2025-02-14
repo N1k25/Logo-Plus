@@ -1,5 +1,5 @@
-
-/*Обнуление
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,300italic);
+/*Обнуление*/
 *{
 	padding: 0;
 	margin: 0;
@@ -18,7 +18,9 @@ nav,footer,header,aside{display: block;}
 html,body{
 	height: 100%;
 	width: 100%;
-	font-size: 100%;
+	font-size: 15px;
+	font-weight: 400;
+	font-family: Roboto;
 	line-height: 1;
 	font-size: 14px;
 	-ms-text-size-adjust: 100%;
@@ -36,5 +38,58 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
---------------------*/
+/*--------------------*/
 
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.__container{
+	max-width: 1152px;
+	margin: 0px auto;
+	box-sizing: content-box;
+}
+
+
+/*-------------------------------Header----------------------------------*/
+.header {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	background-color: #6B6B6B;
+	z-index: 50;
+}
+
+.header__container {
+	display: flex;
+	min-height: 70px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header__logo {
+	width: 97px;
+	height: 20px;
+}
+
+.menu__list {
+	flex-wrap: wrap;
+	display: flex;
+}
+
+.menu__item {
+	margin: 0 20px;
+}
+
+.menu__link {
+	color: #fff;
+	font-size: 13px;
+	line-height: 20px;
+}
+
+.menu__link:hover {
+	text-decoration: underline;
+}
