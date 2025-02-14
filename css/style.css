@@ -56,7 +56,20 @@ section{
 	margin: 0px auto;
 	box-sizing: content-box;
 }
-
+.__design-title {
+	font-size: 32px;
+	line-height: 36px;
+	margin: 0 0 14px 0;
+}
+.__design-text {
+	line-height: 24px;
+}
+.__design-explanation {
+	font-size: 12px;
+	line-height: 21px;
+	color: #777777;
+	text-align: center;
+}
 /*-------------------------------Header----------------------------------*/
 .header {
 	position: absolute;
@@ -182,5 +195,71 @@ section{
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-between;
+}
+
+/*-------------------------------Design----------------------------------*/
+.design {
+	height: 660px;
+}
+
+.design-container {
+	height: 560px;
+}
+
+.what-is-class {
+	height: 311px;
+	display: flex;
+	position: relative;
+}
+
+.what-is-class-description {
+	width: 50%;
+	height: 100%;
+	padding: 68.75px 47px 96.25px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.what-is-class-demonstration {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+	position: absolute;
+	top: -22px;
+	right: 0;
+}
+.what-is-class-demonstration img{
+	width: 240px;
+	height: 260px;
+}
+
+.parrents-and-text-allign {
+	height: 249px;
+	display: flex;
+}
+
+.parrents-and-text-allign-demonstration {
+	width: 50%;
+	height: 100%;
+	text-align: center;
+}
+.parrents-and-text-allign-demonstration img{
+	width: 240px;
+	height: 166px;
+}
+
+.parrents-and-text-allign-description {
+	width: 50%;
+	height: 100%;
+	padding: 68.75px 36px 61.25px 20px;
+}
+
+.parrents-and-text-allign-text span{
+	background-color: #3B79C3;
+	display: inline-block;
+	height: 22px;
+	width: 48px;
+	border-radius: 2px;
+	text-align: center;
 }
 
