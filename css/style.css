@@ -395,3 +395,30 @@ section{
 	line-height: 24px;
 }
 
+/*-------------------------------Footer----------------------------------*/
+.footer-menu {
+	width: 100%;
+	background-color: #6B6B6B;
+}
+
+.footer-menu-container{
+	display: flex;
+	min-height: 100px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-copyright {
+	background-color: #000;
+	height: 50px;
+}
+
+.footer-copyright-container {
+	height: 100%;
+	color: #777777;
+	font-size: 12px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+}
+
